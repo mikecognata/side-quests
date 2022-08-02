@@ -36,6 +36,7 @@ body{
     grid-row-end: span 2;
     grid-column-start: 1;
     grid-column-end: 3;
+    text-align: center;
 }
 .footer {
     grid-column: 1 / span 3;
@@ -45,9 +46,29 @@ body{
     align-items: center;
     flex-direction: column;
 }
+.form-word{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .content-inner {
     border-radius: 10px;
+    filter: drop-shadow(5px 10px 3px black);
 }
 .title {
     font-size: 22px;
+}
+.footer{
+    text-align: center;
+    align-self: center;
+}
+.page-header{
+    border: 1px solid red;
+    height: 10vh;
+    width: 100vw;
+}
+.rules {
+   height: 50%; 
+   width: 100%; 
+   object-fit: contain;
 }
