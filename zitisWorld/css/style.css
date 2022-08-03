@@ -77,11 +77,15 @@ body{
     width: 100%;
     justify-content: space-around;
 }
+.output-p{
+    display: flex;
+    text-align: center;
+}
 #output1 {
     border: 1px solid black;
-    height: 100px;
-    width: 100%;
+    height: 150px;
+    width: 300px;
     background-color: blanchedalmond;
-    text-align: center;
-    font-size: large;
+    line-height: 150px;
+    font-size: xx-large;
 }
