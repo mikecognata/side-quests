@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/zitisWorld/css/style.css">
     <title>Ziti's World</title>
 </head>
 <body>
@@ -33,19 +33,24 @@
 
         <div class="content-small">
             <h2><a href="#"></a>Ziti Can Build Anything !</h2>
-            <img class="content-inner" src="./images/zitiTrain.gif" alt="Zitis Trains">
+            <img class="content-inner" src="/zitisWorld/images/zitiTrain.gif" alt="Zitis Trains">
             <p>Trains, Train Tracks and Train Stations!</p>
         </div>
         <div class="content-small">
             <h2>Word of the Day</h2>
-            <script src="https://wordsmith.org/words/word.js" type="text/javascript">
-            </script> 
-            <br>
-            <form action="" method="get" class="form-word">
-                <label for="name">Spell any word</label>
-                <input type="text" name="name" id="anyWord">
-                <button type="submit" value="Let's see what you spelled!">      
-        </div>
+            <div class="enter-word">
+                <form action="" method="get" class="form-word">
+                    <label for="name">Spell a Word</label>
+                    <input type="text" name="spell-word" id="any-word">
+                    <input type="button" id="btn1" value="Click Me">
+                <p class="output" id="output1"></p>
+            </div>
+            <br>     
+            <div class="wotd">
+                <script src="https://wordsmith.org/words/word.js" type="text/javascript">
+                </script>
+            </div> 
+            </div> 
         
 <!-- Footer -->
         <div class="footer">
@@ -53,5 +58,6 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="app.js"></script>
+    
+    <script type="text/javascript" src="index.js"></script>
 </body>
