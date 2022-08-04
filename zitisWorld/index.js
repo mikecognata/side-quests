@@ -17,3 +17,4 @@ function playText(text) {
     const utternace = new SpeechSynthesisUtterance(text)
     speechSynthesis.speak(utternace)
 }
+let btnClear = document.querySelector()
